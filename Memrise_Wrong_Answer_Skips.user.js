@@ -2,9 +2,9 @@
 // @name           Memrise Wrong Answer Skips
 // @namespace      https://github.com/cooljingle
 // @description    Cut back on certain extra screens and item repeats when you answer incorrectly
-// @match          http://www.memrise.com/course/*/garden/*
-// @match          http://www.memrise.com/garden/review/*
-// @version        0.0.2
+// @match          https://www.memrise.com/course/*/garden/*
+// @match          https://www.memrise.com/garden/review/*
+// @version        0.0.3
 // @updateURL      https://github.com/cooljingle/memrise-wrong-answer-skips/raw/master/Memrise_Wrong_Answer_Skips.user.js
 // @downloadURL    https://github.com/cooljingle/memrise-wrong-answer-skips/raw/master/Memrise_Wrong_Answer_Skips.user.js
 // @grant          none
