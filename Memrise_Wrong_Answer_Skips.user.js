@@ -4,7 +4,7 @@
 // @description    Cut back on certain extra screens and item repeats when you answer incorrectly
 // @match          https://www.memrise.com/course/*/garden/*
 // @match          https://www.memrise.com/garden/review/*
-// @version        0.0.3
+// @version        0.0.4
 // @updateURL      https://github.com/cooljingle/memrise-wrong-answer-skips/raw/master/Memrise_Wrong_Answer_Skips.user.js
 // @downloadURL    https://github.com/cooljingle/memrise-wrong-answer-skips/raw/master/Memrise_Wrong_Answer_Skips.user.js
 // @grant          none
@@ -66,7 +66,7 @@ $(document).ready(function() {
                                         case 2:
                                             args[1] = args[1]; //corresponds to first add distance + random(2,6)
                                             break;
-                                        case 2:
+                                        case 3:
                                             args[1] = args[1]; //corresponds to second add distance + random(2,6)
                                             break;
                                         default:
