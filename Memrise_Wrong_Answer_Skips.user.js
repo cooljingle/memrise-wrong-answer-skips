@@ -4,7 +4,7 @@
 // @description    Cut back on certain extra screens and item repeats when you answer incorrectly
 // @match          https://www.memrise.com/course/*/garden/*
 // @match          https://www.memrise.com/garden/review/*
-// @version        0.0.5
+// @version        0.0.6
 // @updateURL      https://github.com/cooljingle/memrise-wrong-answer-skips/raw/master/Memrise_Wrong_Answer_Skips.user.js
 // @downloadURL    https://github.com/cooljingle/memrise-wrong-answer-skips/raw/master/Memrise_Wrong_Answer_Skips.user.js
 // @grant          none
@@ -76,6 +76,8 @@ $(document).ready(function() {
                                 default:
                                     break;
                             }
+                        } else if(skipPresentation && args[0].template === "copytyping"){
+                            args[1] = 0;
                         }
                         result = cached_function.apply(this, args);
                     } else {
