@@ -11,7 +11,7 @@ The easiest method is through an extension/add-on on chrome/firefox:
 
 Then add the script using the following link: https://github.com/cooljingle/memrise-wrong-answer-skips/raw/master/Memrise_Wrong_Answer_Skips.user.js
 
-After installing you can change the values at the top of the script to configure it how you like. The default is to cut out the 'presentation' screens and reduce the number of times you get asked on that word in the same session from 3 down to 1.
+After installing the script will cut out 'presentation' screens if a 'copytyping' screen is due to be presented after.
 
 If you come across any issues or have a suggestion you can leave your feedback in the forum thread: https://community.memrise.com/t/userscript-wrong-answer-skips/7463
 
